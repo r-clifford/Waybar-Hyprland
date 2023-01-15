@@ -43,3 +43,6 @@ packagecache
 *.exe
 *.out
 *.app
+
+# nix
+/.direnv*

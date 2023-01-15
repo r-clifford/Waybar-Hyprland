@@ -14,7 +14,7 @@ option('gtk-layer-shell', type: 'feature', value: 'auto', description: 'Use gtk-
 option('rfkill', type: 'feature', value: 'auto', description: 'Enable support for RFKILL')
 option('sndio', type: 'feature', value: 'auto', description: 'Enable support for sndio')
 option('logind', type: 'feature', value: 'auto', description: 'Enable support for logind')
-option('tests', type: 'feature', value: 'auto', description: 'Enable tests')
+option('tests', type: 'feature', value: 'disabled', description: 'Enable tests')
 option('experimental', type : 'boolean', value : false, description: 'Enable experimental features')
 option('jack', type: 'feature', value: 'auto', description: 'Enable support for JACK')
 option('wireplumber', type: 'feature', value: 'auto', description: 'Enable support for WirePlumber')
